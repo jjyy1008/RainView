@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RainView">
+        <attr name="rv_dot_count" format="integer|reference"/>
+        <attr name="rv_max_speed" format="integer|reference"/>
+        <attr name="rv_min_speed" format="integer|reference"/>
+        <attr name="rv_max_length" format="dimension|reference"/>
+        <attr name="rv_min_length" format="dimension|reference"/>
+        <attr name="rv_water_radius" format="dimension|reference"/>
+        <attr name="rv_max_alpha" format="float|reference"/>
+        <attr name="rv_alpha_gradient" format="boolean|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="RainSurfaceView">
+        <attr name="rsv_dot_count" format="integer|reference"/>
+        <attr name="rsv_max_speed" format="integer|reference"/>
+        <attr name="rsv_min_speed" format="integer|reference"/>
+        <attr name="rsv_max_length" format="dimension|reference"/>
+        <attr name="rsv_min_length" format="dimension|reference"/>
+        <attr name="rsv_water_radius" format="dimension|reference"/>
+        <attr name="rsv_max_alpha" format="float|reference"/>
+        <attr name="rsv_alpha_gradient" format="boolean|reference"/>
+    </declare-styleable>
+</resources>

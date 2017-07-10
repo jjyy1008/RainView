@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/bg_rain"
+    android:layout_height="match_parent"
+    tools:context="com.xyan.rainviewdemo.MainActivity">
+
+    <com.xyan.rainview.RainView
+        app:rv_dot_count="70"
+        app:rv_max_length="18dp"
+        app:rv_min_length="10dp"
+        app:rv_max_speed="36"
+        app:rv_min_speed="20"
+        app:rv_alpha_gradient="true"
+        app:rv_max_alpha="0.12"
+        app:rv_water_radius="1.4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
